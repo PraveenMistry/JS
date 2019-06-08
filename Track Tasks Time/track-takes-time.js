@@ -1,0 +1,3 @@
+console.time('TaskA');
+// do task....
+console.timeEnd('TaskA');
