@@ -37,9 +37,9 @@ console.log(object.newArray === oldArray); // true
 
 // Objects (When we assign Objects (non-primitives) to the variable, we copy them by reference)
 
-
-var a = {};
-var b = a;
-a.a = 1;
-console.log(a); // {a: 1}
-console.log(b); // {a: 1}
+	var a = {};
+	var b = a;
+	a.a = 1;
+	console.log(a); // {a: 1}
+	console.log(b); // {a: 1}
+	// This is also true for Arrays
